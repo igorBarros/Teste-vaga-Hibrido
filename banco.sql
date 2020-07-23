@@ -1,5 +1,6 @@
 
 -- Script para criação da tabela que foi utilizada na aplicação.
+CREATE SCHEMA `testehibrido` ;
 
 CREATE TABLE `testehibrido`.`clientes` (
     `id_clientes` INT NOT NULL AUTO_INCREMENT,
