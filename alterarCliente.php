@@ -1,7 +1,7 @@
 <?php
 require_once "conecta.php";
-
-$sql = "SELECT * FROM `clientes`";
+$id = $_GET['id'];
+$sql = "SELECT * FROM `clientes` WHERE `id_clientes` = $id";
 $clientes = mysqli_query($conexao, $sql);
 $id = $_GET['id'];
 
